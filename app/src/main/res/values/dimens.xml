@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_pokemon_list_item_image_size">350dp</dimen>
+</resources>

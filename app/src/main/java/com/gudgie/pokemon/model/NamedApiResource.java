@@ -1,10 +1,20 @@
 package com.gudgie.pokemon.model;
 
-public class NamedApiResource {
+import com.gudgie.pokemon.view.PokemonListItemView;
+
+public abstract class NamedApiResource implements PokemonListItemView.ViewModel {
 
     private String name;
+
+    private String url;
 
     public String getName() {
         return name;
     }
+
+    @Override
+    public String getUrl() {
+        return url;
+    }
+
 }

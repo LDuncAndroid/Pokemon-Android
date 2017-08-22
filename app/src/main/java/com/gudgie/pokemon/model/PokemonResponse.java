@@ -11,7 +11,7 @@ public class PokemonResponse {
     private String previous;
 
     @SerializedName("results")
-    private List<NamedApiResource> pokemon;
+    private List<PokemonNamedApiResource> pokemon;
 
     public int getCount() {
         return count;
@@ -21,7 +21,7 @@ public class PokemonResponse {
         return previous;
     }
 
-    public List<NamedApiResource> getPokemon() {
+    public List<PokemonNamedApiResource> getPokemon() {
         return pokemon;
     }
 
